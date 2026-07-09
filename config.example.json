@@ -1,0 +1,56 @@
+{
+  "mock_mode": true,
+  "base_dir": "Bewerbungen",
+  "apify_actor_id": "",
+  "location": "Nuernberg",
+  "radius_km": 150,
+  "bundesland": "bayern",
+  "use_actor_radius": true,
+  "include_details": true,
+  "max_charge_eur": 0.5,
+  "incremental_mode": false,
+  "sort": "date",
+  "max_results": 25,
+  "age_days": 14,
+  "state_key": "werkstudent-it-demo",
+  "queries": [
+    "Werkstudent IT"
+  ],
+  "filter": {
+    "must_include_any": [
+      "werkstudent",
+      "working student"
+    ],
+    "tech_include_any": [
+      "software",
+      "entwicklung",
+      "it",
+      "python",
+      "data",
+      "support",
+      "cloud"
+    ],
+    "exclude_any": [
+      "ausbildung",
+      "praktikum vollzeit"
+    ]
+  },
+  "applicant": {
+    "name": "Max Mustermann",
+    "email": "max.mustermann@example.com",
+    "phone": "+49 000 0000000",
+    "address": "Musterstrasse 1, 90402 Nuernberg",
+    "city": "Nuernberg",
+    "age": "",
+    "study": "Informatik",
+    "weekly_hours": "15-20 Stunden",
+    "available_from": "ab sofort",
+    "skills": [
+      "Python",
+      "SQL",
+      "Automatisierung",
+      "APIs"
+    ],
+    "project_summary": "Aktuell arbeite ich an einem eigenen Softwareprojekt zur strukturierten Datenerfassung und Automatisierung wiederkehrender Arbeitsablaeufe."
+  }
+}

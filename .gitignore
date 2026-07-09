@@ -1,0 +1,32 @@
+.env
+config.json
+
+# Local application data
+Bewerbungen/
+assets/lebenslauf.pdf
+templates/anschreiben.odt
+_localtest/
+
+# Local agent/tooling state
+.agents/
+.codex/
+.tmp/
+
+# Python cache/build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging output
+build/
+dist/
+*.spec
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
