@@ -38,6 +38,21 @@ Dann auf **"Jobs suchen"** klicken. Der Apify-Crawl kann einige Minuten dauern.
 Mit `mock_mode: true` in `config.json` nutzt die App lokale Demo-Daten und benoetigt
 keinen Apify-Token.
 
+## Starten per Doppelklick unter Windows
+
+Im Projekt liegt ein Launcher:
+
+```text
+WerkstudentJobAgent.bat
+```
+
+Per Doppelklick startet er die App. Beim ersten Start legt er bei Bedarf
+`config.json` aus `config.example.json` an, erstellt eine lokale `.venv`,
+installiert die Abhaengigkeiten aus `requirements.txt` und startet danach
+`python run.py`.
+
+Optional kann man eine Desktop-Verknuepfung auf diese Datei legen.
+
 ## Schnellstart ohne API
 
 So kann man die App direkt testen:

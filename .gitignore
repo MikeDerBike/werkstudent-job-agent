@@ -13,6 +13,7 @@ _localtest/
 .tmp/
 
 # Python cache/build output
+.venv/
 __pycache__/
 *.py[cod]
 *$py.class
